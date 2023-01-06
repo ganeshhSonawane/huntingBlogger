@@ -1,0 +1,29 @@
+.container {
+  margin: 0 auto;
+  max-width: 55vw;
+  line-height: 1.4;
+}
+
+.center {
+  text-align: center;
+}
+
+.main h2{
+    padding: 20px 0 10px;
+}
+
+.main ul{
+    padding: 10px 20px;
+}
+.main {
+  padding: 6rem;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 40px auto;
+    max-width: 90vw;
+  }
+}

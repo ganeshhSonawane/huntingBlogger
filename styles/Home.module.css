@@ -1,9 +1,14 @@
+.container {
+  padding: 0 2rem;
+}
+
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 6rem;
+  padding-top: 4rem;
   min-height: 100vh;
 }
 
@@ -97,7 +102,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +130,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
@@ -275,4 +280,31 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.mainnav {
+  display: flex;
+  justify-content: center;
+}
+.mainnav ul {
+  display: flex;
+  padding: 40px 0 0 0;
+}
+.mainnav ul li {
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.blogs {
+  padding-top: 3rem;
+}
+
+.blogs .blogItem {
+  padding: 1rem 0;
+}
+
+.myimg {
+  border-radius: 10px;
+  margin-top: 20px;
 }

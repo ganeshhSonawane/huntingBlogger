@@ -1,0 +1,46 @@
+.container {
+  padding: 0 2rem;
+}
+
+.blogpost {
+  max-width: 55vw;
+  line-height: 1.4;
+}
+
+.blogpost h2,
+.blogpost h3 {
+  margin: 25px 0 10px;
+}
+
+.blogpost a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.authorname {
+  margin: 10px 0;
+}
+
+.blogpost p {
+  margin: 10px 0;
+  max-width: 55vw;
+}
+
+.blogpost img {
+  margin-top: 10px;
+}
+
+.blogpost ol,
+.blogpost ul {
+  margin: 0 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6rem;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
